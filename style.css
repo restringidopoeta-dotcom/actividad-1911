@@ -1,0 +1,33 @@
+.encabezado a {
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.producto {
+    max-width: 300px;
+    border: 1px 333 solid;
+   
+    /* position: relative; */
+}
+
+.insignia {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.encabezado {
+    position: sticky; 
+    background-color: antiquewhite;
+    top: 0;
+    z-index: 10;
+}
+.boton-flotante{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: antiquewhite;
+}
